@@ -22,3 +22,8 @@ def prom_games (players, plays):
    total = sum(map(lambda x: x[1], players))
 
    return total/plays
+
+def prom_player (goals, plays):
+      
+   return goals/plays
+
